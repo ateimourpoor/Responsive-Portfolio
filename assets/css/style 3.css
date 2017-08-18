@@ -139,3 +139,95 @@ p{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 640px) {
+
+    #myname{
+        width: 100%;
+        Left:0;
+
+    }
+    nav{
+        float: none;
+        padding-top:62px ;
+        text-align: center;
+        font-size: 24px;
+
+    }
+    .about img{
+        float: none;
+        width: 10%;
+    }
+    .about{
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: 496px;
+        margin-left: 172px;
+        margin-top: 158px;
+    }
+
+
+    .social{
+        width: 573px;
+        margin-top: -3px;
+        margin-left: 173px;
+        position: absolute;
+        margin-bottom: 110px;
+        top: 508px;
+        left: 8px;
+        text-align: left;
+    }
+
+
+}
+
+@media screen and (max-width: 980px)and (min-width: 769px) {
+
+    .about img{
+        float: none;
+    }
+    .about{
+        width:300px;
+        margin-right: 10px;
+        margin-bottom: 120px;
+
+    }
+    .about img{
+        width: 19%;
+    }
+
+    aside img{
+        width: 19%;
+    }
+    aside{
+        right: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+    .social{
+        width: 700px;
+        margin-top: -28px;
+        margin-left: 175px;
+        position: absolute;
+        margin-bottom: 110px;
+        top: 508px;
+        left: 8px;
+        text-align: left;
+
+    }
+
+
+
+    .about{
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: 65%;
+        margin-left: 173px;
+    }
+
+    #name, #email, #message{
+        width: 100%;
+    }
+}

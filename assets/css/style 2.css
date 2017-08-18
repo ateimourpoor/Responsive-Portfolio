@@ -10,6 +10,16 @@
     position: fixed;
     z-index: 1;
 }
+footer{
+    padding: -13px;
+    background-color: #666666;
+    text-align: center;
+    position: fixed ;
+    bottom: 0px;
+    width: 100%;
+    left: 0%;
+    color: #eeeeee;
+}
 
 #name{
     background-color: #4aaaa5;
@@ -161,4 +171,125 @@ p{
     left: 188px;
     text-align: center;
     color: #ffffff;
+}
+@media screen and (max-width: 640px) {
+
+
+    #name{
+        width: 100%;
+        left: 0;
+    }
+    nav{
+        float: none;
+        padding-top:62px ;
+        text-align: center;
+        font-size: 24px;
+    }
+    .portfolio img{
+        float: none;
+        width: 100%;
+    }
+    .portfolio{
+        padding-bottom: 5px;
+        padding-top: 5px;
+        width: 52%;
+        margin-bottom: 10px;
+        margin-top: 169px;
+    }
+
+
+    .social{
+        width: 578px;
+        margin-top: 1664px;
+        margin-left: 100px;
+        position: absolute;
+        margin-bottom: 77px;
+        /* bottom: 95px; */
+        left: 8px;
+        text-align: left;
+    }
+
+    #one, #two, #three, #four, #five{
+        width: 499px;
+        left:188px;
+    }
+
+    #two{
+        top: 1280px;
+    }
+    #four{
+        top: 1570px;
+    }
+    #one{
+        top: 410px;
+    }
+    #three{
+        top: 700px;
+    }
+    #five{
+        top: 990px;
+    }
+
+}
+
+@media screen and (max-width: 980px)and (min-width: 769px) {
+
+    .portfolio img{
+        float: none;
+    }
+    .portfolio{
+        width:300px;
+        margin-right: 10px;
+        margin-bottom: 120px;
+
+    }
+    .portfolio img{
+        width: 100%;
+    }
+    #one, #two, #three, #four, #five{
+        left: 188px;
+        width: inherit;
+    }
+    #two{
+        top: 955px;
+    }
+    #four{
+        top: 1150px;
+    }
+    #one{
+        top: 370px;
+    }
+    #three{
+        top: 565px;
+    }
+    #five{
+        top: 760px;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+    .social{
+        width: 704px;
+        margin-top: 319px;
+        margin-left: 100px;
+        position: absolute;
+        margin-bottom: 15px;
+        top: 508px;
+        left: 8px;
+        text-align: left;
+
+    }
+
+    .portfolio{
+        padding-bottom: 5px;
+        padding-top: 66px;
+        margin-bottom: 373px;
+        width: 65%;
+    }
+
+    #name{
+        left:3px;
+    }
 }
